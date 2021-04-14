@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("./backgroud_eneya.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    margin-top: 100px;
+    width: 50%;
+    height: 60%;
+    background: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-right: -200px;
+}
+
+.basic_info {
+    background: #999999;
+    padding: 10px;
+}
+
+.basic_info h1 {
+    color: white;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexed_text{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+}
+.flexed_text h2{
+    font-size: 20px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 85%;
+    height: 25px;
+    background: #dadada;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #777777;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #777777;
+    cursor: pointer;
+}
+
+.sub_main {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 260px;
+    margin-left: -200px;
+}
+
+.sub_main_img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_main_img img {
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.sub_main .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_main .list button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: start;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.sub_main .list button h3 {
+    margin: 2px;
+}
+
+.iconify {
+    color: white;
+    margin: 3px;
+}

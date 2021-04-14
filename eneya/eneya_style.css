@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#949494;
+}
+#black{
+    color:black;
+    display: inline-block;
+    font-size: 20px;
+}
+body{
+    background-image: url("./backgroud_eneya.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.img_div img{
+    width: 100px;
+    height: 100px;
+}
+main{
+    margin-top: 100px;
+    width: 50%;
+    height: 60%;
+    background: rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-right: -200px;
+}
+.basic_info{
+    background: #999999;
+    padding: 10px;
+}
+.basic_info h1{
+    color: white;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin: 15px;
+    border-radius: 20px;
+}
+.left_content{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.left_content1{
+    border-radius: 40px;
+    padding: 15px;
+}
+.left_content1 h2{
+    display: flex;
+    justify-content: space-between;
+}
+.left_content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -10px;
+    margin-left: -25px;
+    border-radius: 40px;
+    width: 80%;
+}
+.left_content2 h2{
+    margin: 10px;
+    font-size: 30px;
+}
+.left_content2 li{
+    margin-left:  40px;
+    color:black;
+    font-weight: bold;
+}
+.img_div{
+    background: gray;
+    width: 50%;
+    margin: 15px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_div img{
+    height: 99%;
+    width: 99%;
+    border-radius: 40px;
+}
+.sub_main{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 260px;
+    margin-left: -200px;
+}
+.sub_main h3,a{
+    color:black;
+}
+.sub_main_img{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_main_img img{
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.sub_main .list{
+    display: flex;
+    flex-direction: column;
+}
+.sub_main .list button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: start;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.sub_main .list button h3{
+    margin: 2px;
+}
+.iconify{
+    color:white;
+    margin: 3px;
+}
+a{
+    text-decoration: none;
+}
